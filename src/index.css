@@ -1,5 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: hsl(0, 0%, 10%);
+    margin: 0;
+}
+
+.main-nav{
+    background-color: #375A7F;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.main-nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.main-nav a{
+    color: inherit;
 }
 
 .checklist {
@@ -58,7 +85,7 @@ input[type="text"]{
 ol{
     padding: 0;
 }
-li{
+.checkLI{
     font-size: 2rem;
     font-weight: bold;
     padding: 15px;

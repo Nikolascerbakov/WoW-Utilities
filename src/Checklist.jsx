@@ -45,7 +45,7 @@ function Checklist(){
 
             <ol>
                 {tasks.map((task, index) => 
-                    <li key={index}>
+                    <li className="checkLI" key={index}>
                         <span className="text">{task}</span>
                         <button
                             className="delete-button"
