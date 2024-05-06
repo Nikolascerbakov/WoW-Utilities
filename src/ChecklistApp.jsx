@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-function Checklist(){
+function ChecklistApp(){
 
     const [tasks, setTasks] = useState(["Fill up vault slots", "Collect transmog", "Do dailies"]);
     const [newTask, setNewTask] = useState("");
@@ -70,4 +70,4 @@ function Checklist(){
     )
 }
 
-export default Checklist;
+export default ChecklistApp;
