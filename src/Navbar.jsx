@@ -4,7 +4,7 @@ function Navbar(){
     return (
     <nav className="main-nav">
         <Link to="/Home" className="site-logo">
-            Site Name
+            WoW-Utilities
         </Link>
         <ul>
             <CustomLink to="/Home">Home</CustomLink>
