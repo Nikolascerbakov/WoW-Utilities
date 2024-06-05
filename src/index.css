@@ -5,6 +5,7 @@
 body{
     background-color: hsl(0, 0%, 10%);
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .main-nav{
