@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tierlist-tier{
+    display: flex;
+    gap: .5rem;
+}
+
+.tierlist-grade{
+    width:80px;
+}
+
+.tierlist-item-container{
+    display: flex;
+    border-radius: 1em;
+    border-style: solid;
+}
+
+.tierlist-item-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em 0 2em;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.s-tier{
+    font-size: 64px;
+    font-weight: 900;
+    align-self: stretch;
+    text-align: center;
+    line-height: normal;
+    margin: 0;
+}
+
+.s-tier-bg{
+    background-color: rgb(226, 57, 57);
+}
+
+.purple-vault-bg{
+    background-color: hsla(252.34,60%,53.92%);
+}
+
+.purple-vault-border-color{
+    background-color: hsla(252.34,80%,53.92%);
+}
+
+.white-text{
+    color: white;
+}
+
+.icon-image-rounded{
+    border-radius: 100% !important;
+}
+
+.tierlist-item-image{
+    padding-top: 0.25em;
+    padding-left: 0.25em;
+}
+
