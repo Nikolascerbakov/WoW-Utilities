@@ -8,13 +8,26 @@ a{
     cursor: pointer;
 }
 
+.tierlist-container{
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+}
+
 .tierlist-tier{
     display: flex;
+    align-items: center;
     gap: .5rem;
 }
 
 .tierlist-grade{
     width:80px;
+    border-radius: .25rem;
+}
+
+.tierlist-items{
+    display: flex;
+    gap: 1em;
 }
 
 .tierlist-item-container{
@@ -32,7 +45,7 @@ a{
     font-weight: 900;
 }
 
-.s-tier{
+.tier-letter-size{
     font-size: 64px;
     font-weight: 900;
     align-self: stretch;
@@ -42,7 +55,31 @@ a{
 }
 
 .s-tier-bg{
-    background-color: rgb(226, 57, 57);
+    background-color: hsla(0, 74%, 55%);
+}
+
+.a-tier-bg{
+    background-color: hsla(30, 79%, 55%);
+}
+
+.b-tier-bg{
+    background-color: hsl(45, 76%, 59%);
+}
+
+.c-tier-bg{
+    background-color: hsl(60, 76%, 55%);
+}
+
+.d-tier-bg{
+    background-color: hsl(90,76%,74.9%);
+}
+
+.e-tier-bg{
+    background-color: hsl(120,76%,74.9%);
+}
+
+.f-tier-bg{
+    background-color: hsl(0, 1%, 44%);
 }
 
 .purple-vault-bg{
@@ -50,7 +87,23 @@ a{
 }
 
 .purple-vault-border-color{
-    background-color: hsla(252.34,80%,53.92%);
+    border-color: hsla(252.34,80%,53.92%) !important;
+}
+
+.green-nokhud-bg{
+    background-color: hsla(85, 75%, 28%);
+}
+
+.green-nokhud-border-color{
+    border-color: rgb(165, 230, 74) !important;
+}
+
+.cyan-academy-bg{
+    background-color: hsla(192, 81%, 40%);
+}
+
+.cyan-academy-border-color{
+    border-color: hsla(192, 87%, 55%);
 }
 
 .white-text{
