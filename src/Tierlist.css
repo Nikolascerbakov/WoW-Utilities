@@ -90,12 +90,12 @@ a{
     border-color: hsla(252.34,80%,53.92%) !important;
 }
 
-.green-nokhud-bg{
-    background-color: hsla(85, 75%, 28%);
+.brown-nokhud-bg{
+    background-color: hsl(32, 60%, 37%);
 }
 
-.green-nokhud-border-color{
-    border-color: rgb(165, 230, 74) !important;
+.brown-nokhud-border-color{
+    border-color: hsl(32, 52%, 51%) !important;
 }
 
 .cyan-academy-bg{
@@ -103,7 +103,47 @@ a{
 }
 
 .cyan-academy-border-color{
-    border-color: hsla(192, 87%, 55%);
+    border-color: hsla(192, 87%, 55%) !important;
+}
+
+.green-brackenhide-bg{
+    background-color: hsla(85, 75%, 28%);
+}
+
+.green-brackenhide-border-color{
+    border-color: rgb(165, 230, 74) !important;
+}
+
+.red-lifepools-bg{
+    background-color: hsl(4, 92%, 45%);
+}
+
+.red-lifepools-border-color{
+    border-color: hsl(2.13,99.12%,55.49%) !important;
+}
+
+.blue-halls-bg{
+    background-color: hsl(213.21,50.91%,21.57%);
+}
+
+.blue-halls-border-color{
+    border-color: hsl(213, 33%, 34%) !important;
+}
+
+.yellow-uldaman-bg{
+    background-color: hsl(41, 100%, 60%);
+}
+
+.yellow-uldaman-border-color{
+    border-color: hsl(60, 74%, 67%) !important;
+}
+
+.bordeau-neltharus-bg{
+    background-color: hsl(6, 97%, 31%);
+}
+
+.bordeau-neltharus-border-color{
+    border-color: hsl(6, 70%, 36%) !important;
 }
 
 .white-text{

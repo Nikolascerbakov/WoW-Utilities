@@ -2,14 +2,14 @@
 function Tierlist(){
 
     return(
-        <div className="container">
+        <>
             <div className="tierlist-container">
                 <div className="tierlist-tier">
                     <div className="tierlist-grade s-tier-bg">
                         <h3 className="tier-letter-size">S</h3>
                     </div>
                         <ul className="tierlist-items">
-                            <a href="https://www.wowhead.com/guide/dungeons/azure-vault-strategy">
+                            <a href="https://www.wowhead.com/guide/dungeons/azure-vault-strategy" target="blank">
                                 <div className="tierlist-item-container purple-vault-bg">
                                     <div className="tierlist-item-image">
                                         <img src="src\assets\icons\dungeon_azurevaults.jpg" className="icon-image-rounded"></img>
@@ -24,8 +24,8 @@ function Tierlist(){
                         <h3 className="tier-letter-size">A</h3>
                     </div>
                         <ul className="tierlist-items"> 
-                            <a href="https://www.wowhead.com/guide/dungeons/nokhud-offensive-strategy">
-                                <div className="tierlist-item-container green-nokhud-bg green-nokhud-border-color">
+                            <a href="https://www.wowhead.com/guide/dungeons/nokhud-offensive-strategy" target="blank">
+                                <div className="tierlist-item-container brown-nokhud-bg brown-nokhud-border-color">
                                     <div className="tierlist-item-image">
                                     <img src="src\assets\icons\dungeon_nokhud.jpg" className="icon-image-rounded"></img>
                                     </div>
@@ -33,12 +33,12 @@ function Tierlist(){
                                 </div>
                             </a>
 
-                            <a href="https://www.wowhead.com/guide/dungeons/algethar-academy-strategy">
+                            <a href="https://www.wowhead.com/guide/dungeons/algethar-academy-strategy" target="blank">
                                 <div className="tierlist-item-container cyan-academy-bg cyan-academy-border-color">
                                     <div className="tierlist-item-image">
                                     <img src="src\assets\icons\dungeon_dragonacademy.jpg" className="icon-image-rounded"></img>
                                     </div>
-                                    <div className="tierlist-item-label white-text "><span>Algethar Academy</span></div>
+                                    <div className="tierlist-item-label white-text"><span>Algethar Academy</span></div>
                                 </div>
                             </a>
                         </ul>
@@ -48,24 +48,30 @@ function Tierlist(){
                             <h3 className="tier-letter-size">B</h3>
                         </div>
                             <ul className="tierlist-items">
-                                <a href="">
-                                    <div className="tierlist-item-container">
-                                        <div className="tierlist-item-image"></div>
-                                        <div className="tierlist-item-label"><span>Brackenhide Hollow</span></div>
+                                <a href="https://www.wowhead.com/guide/dungeons/brackenhide-hollow-strategy" target="blank">
+                                    <div className="tierlist-item-container green-brackenhide-bg green-brackenhide-border-color">
+                                        <div className="tierlist-item-image">
+                                            <img src="src\assets\icons\dungeon_brackenhidehollow.jpg" className="icon-image-rounded"></img>
+                                        </div>
+                                        <div className="tierlist-item-label white-text"><span>Brackenhide Hollow</span></div>
                                     </div>
                                 </a>
 
-                                <a href="">
-                                    <div className="tierlist-item-container">
-                                        <div className="tierlist-item-image"></div>
-                                        <div className="tierlist-item-label"><span>Ruby Life Pools</span></div>
+                                <a href="https://www.wowhead.com/guide/dungeons/ruby-life-pools-strategy" target="blank">
+                                    <div className="tierlist-item-container red-lifepools-bg red-lifepools-border-color">
+                                        <div className="tierlist-item-image">
+                                        <img src="src\assets\icons\dungeon_lifepools.jpg" className="icon-image-rounded"></img>
+                                        </div>
+                                        <div className="tierlist-item-label white-text"><span>Ruby Life Pools</span></div>
                                     </div>
                                 </a>
 
-                                <a href="">
-                                    <div className="tierlist-item-container">
-                                        <div className="tierlist-item-image"></div>
-                                        <div className="tierlist-item-label"><span>Halls of Infusion</span></div>
+                                <a href="https://www.wowhead.com/guide/dungeons/halls-of-infusion-strategy" target="blank">
+                                    <div className="tierlist-item-container blue-halls-bg blue-halls-border-color">
+                                        <div className="tierlist-item-image">
+                                        <img src="src\assets\icons\dungeon_hallsofinfusion.jpg" className="icon-image-rounded"></img>
+                                        </div>
+                                        <div className="tierlist-item-label white-text"><span>Halls of Infusion</span></div>
                                     </div>
                                 </a>
                             </ul>
@@ -75,17 +81,23 @@ function Tierlist(){
                         <h3 className="tier-letter-size">C</h3>
                     </div>
                         <ul className="tierlist-items">
-                                <a href="">
-                                    <div className="tierlist-item-container">
-                                        <div className="tierlist-item-image"></div>
-                                        <div className="tierlist-item-label"><span>Uldaman</span></div>
+                                <a href="https://www.wowhead.com/guide/dungeons/uldaman-legacy-of-tyr-strategy" target="blank">
+                                    <div className="tierlist-item-container yellow-uldaman-bg yellow-uldaman-border-color">
+                                        <div className="tierlist-item-image">
+                                        <img src="src\assets\icons\dungeon_uldaman.jpg" className="icon-image-rounded"></img>
+                                        </div>
+                                        <div className="tierlist-item-label white-text">
+                                        <span>Uldaman</span></div>
                                     </div>
                                 </a>
 
-                                <a href="">
-                                    <div className="tierlist-item-container">
-                                        <div className="tierlist-item-image"></div>
-                                        <div className="tierlist-item-label"><span>Neltharus</span></div>
+                                <a href="https://www.wowhead.com/guide/dungeons/neltharus-strategy" target="blank">
+                                    <div className="tierlist-item-container bordeau-neltharus-bg bordeau-neltharus-border-color">
+                                        <div className="tierlist-item-image">
+                                        <img src="src\assets\icons\dungeon_neltharus.jpg" className="icon-image-rounded"></img>
+                                        </div>
+                                        <div className="tierlist-item-label white-text">
+                                        <span>Neltharus</span></div>
                                     </div>
                                 </a>
 
@@ -113,7 +125,7 @@ function Tierlist(){
 
             </div>
 
-        </div>
+        </>
     )
 }
 
