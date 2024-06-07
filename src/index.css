@@ -55,6 +55,18 @@ body{
     text-align: center;
 }
 
+.container-features{
+    border: 6px solid;
+    border-radius: 2em;
+    border-color: bisque;
+}
+
+.feature > img{
+    padding: 2em;
+    width: 100%;
+    height: 100%;
+}
+
 .checklist {
     font-family: Arial, sans-serif;
     text-align: center;
