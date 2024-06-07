@@ -47,16 +47,13 @@ body{
     background-color: hsl(0, 0%, 10%);
 }
 
-
-
 .container {
-    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
     text-align: center;
 }
-
-
-
-
 
 .checklist {
     font-family: Arial, sans-serif;
@@ -139,7 +136,17 @@ ol{
     margin-left: 10px;
 }
 
-.Affix {
+.affix-container {
     display: flex;
+    align-items: center;
     gap: 1rem;
+}
+
+.affix-icons{
+    display: flex;
+    gap: 1em;
+}
+
+.affix-icons > img{
+    border-radius: 100% !important;
 }
