@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tierlist-container{
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+}
+
+.tierlist-tier{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.tierlist-grade{
+    width:80px;
+    border-radius: .25rem;
+}
+
+.tierlist-items{
+    display: flex;
+    gap: 1em;
+}
+
+.tierlist-item-container{
+    display: flex;
+    border-radius: 1em;
+    border-style: solid;
+}
+
+.tierlist-item-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em 0 2em;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.tier-letter-size{
+    font-size: 64px;
+    font-weight: 900;
+    align-self: stretch;
+    text-align: center;
+    line-height: normal;
+    margin: 0;
+}
+
+.s-tier-bg{
+    background-color: hsla(0, 74%, 55%);
+}
+
+.a-tier-bg{
+    background-color: hsla(30, 79%, 55%);
+}
+
+.b-tier-bg{
+    background-color: hsl(45, 76%, 59%);
+}
+
+.c-tier-bg{
+    background-color: hsl(60, 76%, 55%);
+}
+
+.d-tier-bg{
+    background-color: hsl(90,76%,74.9%);
+}
+
+.e-tier-bg{
+    background-color: hsl(120,76%,74.9%);
+}
+
+.f-tier-bg{
+    background-color: hsl(0, 1%, 44%);
+}
+
+.purple-vault-bg{
+    background-color: hsla(252.34,60%,53.92%);
+}
+
+.purple-vault-border-color{
+    border-color: hsla(252.34,80%,53.92%) !important;
+}
+
+.brown-nokhud-bg{
+    background-color: hsl(32, 60%, 37%);
+}
+
+.brown-nokhud-border-color{
+    border-color: hsl(32, 52%, 51%) !important;
+}
+
+.cyan-academy-bg{
+    background-color: hsla(192, 81%, 40%);
+}
+
+.cyan-academy-border-color{
+    border-color: hsla(192, 87%, 55%) !important;
+}
+
+.green-brackenhide-bg{
+    background-color: hsla(85, 75%, 28%);
+}
+
+.green-brackenhide-border-color{
+    border-color: rgb(165, 230, 74) !important;
+}
+
+.red-lifepools-bg{
+    background-color: hsl(4, 92%, 45%);
+}
+
+.red-lifepools-border-color{
+    border-color: hsl(2.13,99.12%,55.49%) !important;
+}
+
+.blue-halls-bg{
+    background-color: hsl(213.21,50.91%,21.57%);
+}
+
+.blue-halls-border-color{
+    border-color: hsl(213, 33%, 34%) !important;
+}
+
+.yellow-uldaman-bg{
+    background-color: hsl(41, 100%, 60%);
+}
+
+.yellow-uldaman-border-color{
+    border-color: hsl(60, 74%, 67%) !important;
+}
+
+.bordeau-neltharus-bg{
+    background-color: hsl(6, 97%, 31%);
+}
+
+.bordeau-neltharus-border-color{
+    border-color: hsl(6, 70%, 36%) !important;
+}
+
+.white-text{
+    color: white;
+}
+
+.icon-image-rounded{
+    border-radius: 100% !important;
+}
+
+.tierlist-item-image{
+    padding-top: 0.25em;
+    padding-left: 0.25em;
+}
+
