@@ -11,23 +11,30 @@ a{
 .tierlist-container{
     display: flex;
     flex-direction: column;
-    gap: .25em;
+    gap: 0.5rem;
 }
 
 .tierlist-tier{
     display: flex;
-    align-items: center;
     gap: .5rem;
 }
 
 .tierlist-grade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width:80px;
     border-radius: .25rem;
 }
 
 .tierlist-items{
     display: flex;
+    flex: 1 0;
     gap: 1em;
+    border: 1px solid black;
+    border-radius: .25em;
+    background: linear-gradient(140deg, #060606, #141414);
+    padding: 1em;
 }
 
 .tierlist-item-container{
