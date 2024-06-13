@@ -6,7 +6,7 @@ function Tierlist(){
             <div className="tierlist-container">
                 <div className="tierlist-tier">
                     <div className="tierlist-grade s-tier-bg">
-                        <h3 className="tier-letter-size">S</h3>
+                            <h3 className="tier-letter-size">S</h3>
                     </div>
                         <ul className="tierlist-items">
                             <a href="https://www.wowhead.com/guide/dungeons/azure-vault-strategy" target="blank">
