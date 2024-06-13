@@ -1,72 +1,25 @@
-import React, {useState} from "react";
 
 function ChecklistApp(){
 
-    const [tasks, setTasks] = useState(["Fill up vault slots", "Collect transmog", "Do dailies"]);
-    const [newTask, setNewTask] = useState("");
-
-    function handleInputChange(event){
-        setNewTask(event.target.value);
-    }
-
-    function addTask(){
-
-    }
-
-    function deleteTask(index){
-
-    }
-
-    function moveTaskUp(index){
-
-    }
-
-    function moveTaskDown(index){
-        
-    }
-
     return(
-        <div className="checklist">
-            <h1>Checklist</h1>
-
-            <div>
-                <input 
-                type="text"
-                placeholder="Enter a check..."
-                value={newTask}
-                onChange={handleInputChange}/>
-
-                <button 
-                className="add-button"
-                onClick={addTask}>
-                ADD
-                </button>
-            </div>
-
-            <ol>
-                {tasks.map((task, index) => 
-                    <li className="checkLI" key={index}>
-                        <span className="text">{task}</span>
-                        <button
-                            className="delete-button"
-                            onClick={() => deleteTask(index)}>
-                            Delete
-                        </button>
-                        <button
-                            className="move-button"
-                            onClick={() => moveTaskUp(index)}>
-                            👆
-                        </button>
-                        <button
-                            className="move-button"
-                            onClick={() => moveTaskDown(index)}>
-                            👇
-                        </button>
-                    </li>
-                )}
-            </ol>
-
-        </div>
+        <>
+                        <div className="grid-checklist">
+                            <div className="grid-char-name">Evokach</div>
+                            <div className="grid-note-space">Space for a note or a reminder</div>
+                            <div className="grid-raid-slot">Raid slot</div>
+                            <div className="grid-mythic-slot">MythicPlus slot</div>
+                            <div className="grid-pvp-slot">PvP slot</div>
+                            <div className="grid-check1">Check1</div>
+                            <div className="grid-check2">Check2</div>
+                            <div className="grid-check3">Check3</div>
+                            <div className="grid-check4">Check4</div>
+                            <div className="grid-check5">Check5</div>
+                            <div className="grid-check6">Check6</div>
+                            <div className="grid-check7">Check7</div>
+                            <div className="grid-check8">Check8</div>
+                            <div className="grid-check9">Check9</div>
+                        </div>
+        </>
     )
 }
 
