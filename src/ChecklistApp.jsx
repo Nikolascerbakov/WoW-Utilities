@@ -1,3 +1,4 @@
+import CheckboxComponent from './UI-components/CheckboxComponent.jsx'
 
 
 function ChecklistApp(){
@@ -11,31 +12,31 @@ function ChecklistApp(){
                             <div className="grid-mythic-slot">MythicPlus slot</div>
                             <div className="grid-pvp-slot">PvP slot</div>
                             <div className="grid-check1">
-                                <input type="checkbox"></input>
+                                <CheckboxComponent/>
                             </div>
                             <div className="grid-check2">
-                                <input type="checkbox"></input>
+                                <CheckboxComponent/>
                             </div>
                             <div className="grid-check3">
-                                <input type="checkbox"></input>
+                                <CheckboxComponent/>
                             </div>
                             <div className="grid-check4">
-                                <input type="checkbox"></input>
+                                <CheckboxComponent/>
                             </div>
                             <div className="grid-check5">
-                                <input type="checkbox"></input>
+                                <CheckboxComponent/>
                             </div>
                             <div className="grid-check6">
-                                <input type="checkbox"></input>
+                                <CheckboxComponent/>
                             </div>
                             <div className="grid-check7">
-                                <input type="checkbox"></input>
+                                <CheckboxComponent/>
                             </div>
                             <div className="grid-check8">
-                                <input type="checkbox"></input>
+                                <CheckboxComponent/>
                             </div>
                             <div className="grid-check9">
-                                <input type="checkbox"></input>
+                                <CheckboxComponent/>
                             </div>
                         </div>
         </>
