@@ -1,7 +1,9 @@
 import CheckboxComponent from './UI-components/CheckboxComponent.jsx'
 
 
+
 function ChecklistApp(){
+
 
     return(
         <>
@@ -12,7 +14,7 @@ function ChecklistApp(){
                             <div className="grid-mythic-slot">MythicPlus slot</div>
                             <div className="grid-pvp-slot">PvP slot</div>
                             <div className="grid-check1">
-                                <CheckboxComponent/>
+                                <CheckboxComponent />                           
                             </div>
                             <div className="grid-check2">
                                 <CheckboxComponent/>
