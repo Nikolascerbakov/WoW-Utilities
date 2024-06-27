@@ -1,9 +1,22 @@
 import CheckboxComponent from './UI-components/CheckboxComponent.jsx'
-
+import { useLocalStorage } from './useLocalStorage.jsx';
 
 
 
 function ChecklistApp(){
+
+    const [checkedOne, setCheckedOne] = useLocalStorage("checked", false);
+
+    const handleChangeOne = () => { 
+        setCheckedOne(!checkedOne);
+    };
+
+    const [checkedTwo, setCheckedTwo] = useLocalStorage("checked", false);
+
+    const handleChangeTwo = () => { 
+        setCheckedTwo(!checkedTwo);
+    };
+
 
 
     return(
@@ -15,35 +28,49 @@ function ChecklistApp(){
                             <div className="grid-mythic-slot">MythicPlus slot</div>
                             <div className="grid-pvp-slot">PvP slot</div>
                             <div className="grid-check1">
-                                <CheckboxComponent />                           
+                                <Checkbox label="Checkbox 1" value={checkedOne} onChange={handleChangeOne}
+                                />                           
                             </div>
                             <div className="grid-check2">
-                                <CheckboxComponent/>
+                                <Checkbox label="Checkbox 2" value={checkedTwo} onChange={handleChangeTwo}
+                                /> 
                             </div>
                             <div className="grid-check3">
-                                <CheckboxComponent/>
+                                
                             </div>
                             <div className="grid-check4">
-                                <CheckboxComponent/>
+                               
                             </div>
                             <div className="grid-check5">
-                                <CheckboxComponent/>
+                               
                             </div>
                             <div className="grid-check6">
-                                <CheckboxComponent/>
+                               
                             </div>
                             <div className="grid-check7">
-                                <CheckboxComponent/>
+                             
                             </div>
                             <div className="grid-check8">
-                                <CheckboxComponent/>
+                               
                             </div>
                             <div className="grid-check9">
-                                <CheckboxComponent/>
+                               
                             </div>
                         </div>
         </>
     )
 }
+
+const Checkbox = ({ label,value, onChange }) => {
+    return (
+        <label>
+            <input type="checkbox"
+                checked={value}
+                onChange={onChange}>
+            </input>
+            {label}
+        </label>       
+    );
+};
 
 export default ChecklistApp;

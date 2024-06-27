@@ -1,10 +1,10 @@
 import './CheckboxComponent.css'
 // import { useState } from 'react'; //
-import { useLocalStorage } from '../useLocalStorage.jsx';
 
-function CheckboxComponent(){
 
-    const [checked, setChecked] = useLocalStorage("checked", false);
+function CheckboxComponent(checked, checkHandler){
+
+   
 
     return (
         <>
@@ -12,10 +12,10 @@ function CheckboxComponent(){
             <input 
             type="checkbox"
             checked={checked}
-            onChange={(e) => setChecked(e.target.checked)}
+            onChange={checkHandler}
             />
         </label>
-        <p>The checkbox is {checked}</p>
+        <p>The checkbox is</p>
         </>
     )
 
