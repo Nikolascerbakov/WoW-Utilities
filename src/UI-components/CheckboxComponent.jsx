@@ -2,21 +2,18 @@ import './CheckboxComponent.css'
 // import { useState } from 'react'; //
 
 
-function CheckboxComponent(checked, checkHandler){
+function CheckboxComponent({label,value, onChange}){
 
    
 
     return (
-        <>
         <label>
-            <input 
-            type="checkbox"
-            checked={checked}
-            onChange={checkHandler}
-            />
+            <input type="checkbox"
+                checked={value}
+                onChange={onChange}>
+            </input>
+            {label}
         </label>
-        <p>The checkbox is</p>
-        </>
     )
 
 }
