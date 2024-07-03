@@ -7,7 +7,8 @@ function ChecklistApp(){
 
     return(
         <>
-                        <div className="grid-checklist">
+           <form>
+               <div className="grid-checklist">
                             <div className="grid-char-name">Evokach</div>
                             <div className="grid-note-space">Space for a note or a reminder</div>
                             <div className="grid-raid-slot">Raid slot</div>
@@ -50,6 +51,8 @@ function ChecklistApp(){
                                 /> 
                             </div>
                         </div>
+          </form>
+                       
         </>
     )
 }
