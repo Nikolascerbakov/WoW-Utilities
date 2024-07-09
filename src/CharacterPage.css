@@ -1,0 +1,11 @@
+.character-page-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.add-buttons-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+}
