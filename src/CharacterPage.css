@@ -4,8 +4,14 @@
     gap: 2em;
 }
 
-.add-buttons-container{
+.search-container{
     display: flex;
     justify-content: space-evenly;
     gap: 1em;
+}
+
+.checklists-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }

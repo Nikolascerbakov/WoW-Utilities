@@ -5,6 +5,7 @@ import './index.css'
 import './Tierlist.css'
 import './Checklist.css'
 import './CharacterPage.css'
+import './CharacterComponent.css'
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

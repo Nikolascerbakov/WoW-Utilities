@@ -33,7 +33,7 @@ function CustomChecklist(){
                             <div className="grid-check9">
                                 <input type="checkbox"></input>
                             </div>
-                        </div>))
+                        </div>)
 }
 
 export default CustomChecklist
