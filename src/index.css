@@ -85,11 +85,9 @@ button{
     font-size: 1.7rem;
     font-weight: bold;
     padding: 10px 20px;
-    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.5s ease;
 }
 
 .add-button{
@@ -162,3 +160,5 @@ ol{
 .affix-icons > img{
     border-radius: 100% !important;
 }
+
+  

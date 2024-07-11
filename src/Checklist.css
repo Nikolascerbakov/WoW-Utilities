@@ -1,0 +1,77 @@
+
+.grid-vault-checklist {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: .25em;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "grid-char-name grid-note-space grid-note-space grid-note-space"
+      "grid-raid-slot grid-check1 grid-check2 grid-check3"
+      "grid-mythic-slot grid-check4 grid-check5 grid-check6"
+      "grid-pvp-slot grid-check7 grid-check8 grid-check9";
+  }
+
+.grid-vault-checklist > * {
+    color: white;
+    border: 1px solid #242424;
+    border-radius: .25rem;
+    background: #060606;
+}
+
+.grid-char-name{
+    grid-area: grid-char-name ;
+}
+
+.grid-note-space{
+    grid-area: grid-note-space;
+}
+
+.grid-raid-slot{
+    grid-area: grid-raid-slot;
+}
+
+.grid-mythic-slot{
+    grid-area: grid-mythic-slot;
+}
+
+.grid-pvp-slot{
+    grid-area: grid-pvp-slot;
+}
+
+.grid-check1{
+    grid-area: grid-check1;
+}
+
+.grid-check2{
+    grid-area: grid-check2;
+}
+
+.grid-check3{
+    grid-area: grid-check3;
+}
+
+.grid-check4{
+    grid-area: grid-check4;
+}
+
+.grid-check5{
+    grid-area: grid-check5;
+}
+
+.grid-check6{
+    grid-area: grid-check6;
+}
+
+.grid-check7{
+    grid-area: grid-check7;
+}
+
+.grid-check8{
+    grid-area: grid-check8;
+}
+
+.grid-check9{
+    grid-area: grid-check9;
+}
+
