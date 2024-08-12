@@ -1,18 +1,26 @@
 import GreatVaultChecklist from "../checklists/GreatVaultChecklist";
 
 
-function CharacterComponent(){
+function CharacterComponent({ characterData }){
+
+        if(!characterData){
+            return <><h2>Choose a character to display data</h2></>
+        }
+
+        const { color, class: characterClass, icon } = characterData;
+
+        
+
 
         return(
-            <div className="character-div">
+            <div className="character-div" style={{ border: `8px solid ${color}`, color: color }}>
                 <div className="character-info-container">
-                    <button>Name</button>
-                    <button>Icon</button>
-                    <button>Add custom checklist</button>
+                <h2>{characterData.class}</h2>
+                <img src={characterData.icon} alt={characterData.class} />               
                 </div>
 
                 <div className="great-vault-container">
-                <GreatVaultChecklist />
+                 <GreatVaultChecklist  characterData={characterData}/>
                 </div>
 
 

@@ -1,13 +1,20 @@
 .character-div{
-    border: 5px solid green;
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.character-div img {
+    width: 50px;
+    height: 50px;
 }
 
 .character-info-container{
     display: flex;
     gap: 1rem;
     justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
 }

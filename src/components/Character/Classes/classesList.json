@@ -1,0 +1,27 @@
+[{
+    "class": "Evoker",
+    "icon": "src/assets/icons/classicon_evoker.jpg",
+    "color": "#33937f"
+
+},
+{
+    "class": "Paladin",
+    "icon": "src/assets/icons/classicon_paladin.jpg",
+    "color": "#f48cba"
+},
+{
+    "class": "Rogue",
+    "icon": "src/assets/icons/classicon_rogue.jpg",
+    "color": "#fff468"
+},
+{
+    "class": "Mage",
+    "icon": "src/assets/icons/classicon_mage.jpg",
+    "color": "#3fc7eb"
+},
+{
+    "class": "Warlock",
+    "icon": "src/assets/icons/classicon_warlock.jpg",
+    "color": "#8788ee"
+}
+]

@@ -1,11 +1,10 @@
-import { useState } from "react"
+
+function Select({ onCharacterChange }){
 
 
-function Select(){
-
-    const [selectedCharacter, setSelectedCharacter] = useState('default')
-
-
+    const handleChange = (e) => {
+        onCharacterChange(e.target.value);
+    }
 
     return(
         <div>
@@ -17,14 +16,14 @@ function Select(){
                     name="selectedCharacter" 
                     id="character-select" 
                     form="characters-select-form" 
-                    defaultValue="default"
-                    onChange={e => setSelectedCharacter(e.target.value)}
+                    defaultValue="none"
+                    onChange={handleChange}
                 >
-                    <option value="default"></option>
+                    <option value="none"></option>
                     <option value="Evoker">Evoker</option>
+                    <option value="Mage">Mage</option>
                     <option value="Paladin">Paladin</option>
                     <option value="Rogue">Rogue</option>
-                    <option value="Mage">Mage</option>
                     <option value="Warlock">Warlock</option>
                 </select>
              </label>
@@ -33,7 +32,7 @@ function Select(){
 
        
         
-    )
+    );
 }
 
 export default Select
