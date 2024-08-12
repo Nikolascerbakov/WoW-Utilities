@@ -7,7 +7,7 @@ import { useState } from "react";
 
 function CharacterPage(){
 
-    const [selectedCharacter, setSelectedCharacter] = useState('default');
+    const [selectedCharacter, setSelectedCharacter] = useState('none');
 
     const selectedClassData = classesList.find(
         (characterClass) => characterClass.class === selectedCharacter
