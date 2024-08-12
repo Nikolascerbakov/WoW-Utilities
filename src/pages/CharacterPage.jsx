@@ -6,23 +6,27 @@ import { useState } from "react";
 
 function CharacterPage(){
 
-    const [characters, setCharacters] = useState([])
+    const [shownCharacter,setShownCharacter] = useState();
 
-    const handleInputChange = (event) => {
-        setCharacters(event.target.value);
-    }
+    // const [input, setInput] = useState("");
 
-    const handleClickSearch = () => {
+    // const handleInputChange = (event) => {
+    //     setInput(event.target.value);
+    // }
 
-    }
+    // const handleClickSearch = () => {
+
+    // }
+
+
 
     return (
         <div className="character-page-container">
             <h1>Character page</h1>
             <div className="search-container">
-                <Select />
-                <Searchbar placeholder={"Enter your character name"} handleInputChange={handleInputChange}/>
-                <Button text={"Search"} className={"search-button"} onClick={handleClickSearch}/>
+                <Select  />
+                {/* <Searchbar placeholder="Enter your character name" handleInputChange={handleInputChange}/> */}
+                {/* <Button text={"Search"} className={"search-button"} onClick={handleClickSearch}/> */}
             </div>
 
             <div className="character-container">

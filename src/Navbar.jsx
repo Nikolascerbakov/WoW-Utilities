@@ -10,7 +10,6 @@ function Navbar(){
             <CustomLink to="/Home">Home</CustomLink>
             <CustomLink to="/MythicPlus">MythicPlus</CustomLink>
             <CustomLink to="/CharacterPage">Character</CustomLink>
-
         </ul>
            
             </nav>)
