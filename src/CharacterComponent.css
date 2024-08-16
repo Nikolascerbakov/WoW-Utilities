@@ -9,12 +9,21 @@
 .character-div img {
     width: 50px;
     height: 50px;
+    border-radius: 10px;
 }
 
 .character-info-container{
     display: flex;
     gap: 1rem;
-    justify-content: space-evenly;
+    padding: 0 1rem;
+    justify-content: space-between;
     text-align: center;
+    align-items: center;
+}
+
+
+.character-name-div{
+    display: flex;
+    gap: 1rem;
     align-items: center;
 }

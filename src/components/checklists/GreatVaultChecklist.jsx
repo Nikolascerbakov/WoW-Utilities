@@ -6,20 +6,21 @@ function GreatVaultChecklist({ characterData }) {
     // Generate a unique key for each character's checkboxes
     const localStorageKey = `checkboxes-${characterData.class}`;
 
-    // Load the checkbox states from localStorage when the characterData changes
+    // Load the checkbox states from localStorage when the characterData is fully available
     useEffect(() => {
-        const savedCheckboxes = JSON.parse(localStorage.getItem(localStorageKey));
-        if (savedCheckboxes) {
-            setCheckboxes(savedCheckboxes);
-        } else {
-            // Initialize if not found in localStorage
-            setCheckboxes(Array(9).fill(false));
+        if (characterData.class) { // Ensure characterData is fully loaded
+            const savedCheckboxes = JSON.parse(localStorage.getItem(localStorageKey));
+            if (savedCheckboxes) {
+                setCheckboxes(savedCheckboxes);
+            }
         }
     }, [characterData.class, localStorageKey]);
 
     // Save the checkbox states to localStorage whenever they change
     useEffect(() => {
-        localStorage.setItem(localStorageKey, JSON.stringify(checkboxes));
+        if (characterData.class) { // Ensure characterData is fully loaded
+            localStorage.setItem(localStorageKey, JSON.stringify(checkboxes));
+        }
     }, [checkboxes, localStorageKey]);
 
     // Handle checkbox change
@@ -49,4 +50,4 @@ function GreatVaultChecklist({ characterData }) {
     );
 }
 
-export default GreatVaultChecklist
+export default GreatVaultChecklist;

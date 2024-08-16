@@ -15,8 +15,11 @@ function CharacterComponent({ characterData }){
         return(
             <div className="character-div" style={{ border: `8px solid ${color}`, color: color }}>
                 <div className="character-info-container">
-                <h2>{characterData.class}</h2>
-                <img src={characterData.icon} alt={characterData.class} />               
+                    <div className="character-name-div">
+                        <h2>{characterData.class}</h2>
+                        <img src={characterData.icon} alt={characterData.class} />
+                    </div>
+                <button>Custom checklist</button>            
                 </div>
 
                 <div className="great-vault-container">
