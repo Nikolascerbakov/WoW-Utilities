@@ -11,7 +11,7 @@ function App() {
     <Navbar />
     <div className='container'>
       <Routes>
-        <Route path='/Home' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path='/CharacterPage' element={<CharacterPage />} />
         <Route path='/MythicPlus' element={<MythicPlus />} />
       </Routes>

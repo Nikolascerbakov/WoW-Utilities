@@ -3,11 +3,11 @@ import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 function Navbar(){
     return (
     <nav className="main-nav">
-        <Link to="/Home" className="site-logo">
+        <Link to="/" className="site-logo">
             WoW-Utilities
         </Link>
         <ul>
-            <CustomLink to="/Home">Home</CustomLink>
+            <CustomLink to="/">Home</CustomLink>
             <CustomLink to="/MythicPlus">MythicPlus</CustomLink>
             <CustomLink to="/CharacterPage">Character</CustomLink>
         </ul>
