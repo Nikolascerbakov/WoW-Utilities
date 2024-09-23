@@ -5,9 +5,10 @@ function Select({ selectedCharacter, onCharacterChange }) {
     }
 
     return (
-        <div>
+        <div className="select-container">
             <label>
                 Select your character:
+            </label>
                 <select 
                     name="selectedCharacter" 
                     id="character-select" 
@@ -21,7 +22,7 @@ function Select({ selectedCharacter, onCharacterChange }) {
                     <option value="Rogue">Rogue</option>
                     <option value="Warlock">Warlock</option>
                 </select>
-            </label>
+            
         </div>
     );
 }

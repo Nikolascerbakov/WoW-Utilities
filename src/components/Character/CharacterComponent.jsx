@@ -23,7 +23,7 @@ function CharacterComponent({ characterData }){
                 </div>
 
                 <div className="great-vault-container">
-                 <GreatVaultChecklist  characterData={characterData}/>
+                 <GreatVaultChecklist  characterData={characterData} />
                 </div>
 
 

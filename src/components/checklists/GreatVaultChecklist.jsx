@@ -32,14 +32,14 @@ function GreatVaultChecklist({ characterData }) {
 
     return (
         <div className="grid-vault-checklist">
-            <div className="grid-char-name">{characterData.class}</div>
-            <div className="grid-note-space">Space for a note or a reminder</div>
-            <div className="grid-raid-slot">Raid slot</div>
-            <div className="grid-mythic-slot">MythicPlus slot</div>
-            <div className="grid-pvp-slot">PvP slot</div>
+            <div className="grid-char-name" >{characterData.class} </div>
+            <div className="grid-note-space"><textarea placeholder="type a note to be reminded of" rows={5} cols={50} /></div>
+            <div className="grid-raid-slot"></div>
+            <div className="grid-mythic-slot"></div>
+            <div className="grid-world-slot"></div>
             {[...Array(9)].map((_, index) => (
                 <div key={index} className={`grid-check${index + 1}`}>
-                    <input
+                    <input className={`grid-input${index + 1}`}
                         type="checkbox"
                         checked={checkboxes[index]}
                         onChange={() => handleCheckboxChange(index)}

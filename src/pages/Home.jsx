@@ -5,14 +5,11 @@ function Home(){
     return  (
         <>
         <h1>Home page</h1>
-        <h2>Current working features:</h2>
+        <h2>A site that enhances your WoW playing and tracking experience!</h2>
         <div className="container">
             <div className="container-features">
                 <div className="feature">
-                <CustomLink to="/MythicPlus">
-                    <img className='feature-image' src="src\assets\images\m+_tierlist_thumbnail.png" alt="m+ feature" />
-                </CustomLink>
-                    
+                    <h2>Checklist for your Great Vault and custom checklists</h2>
                 </div>
                 
             </div>

@@ -1,8 +1,8 @@
 
 .grid-vault-checklist {  
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 500px 386px 386px 386px;
+    grid-template-rows: 100px 220px 220px 220px;
     gap: .25em;
     grid-auto-flow: row;
     grid-template-areas:
@@ -15,63 +15,126 @@
 .grid-vault-checklist > * {
     color: white;
     border: 1px solid #242424;
-    border-radius: .25rem;
+    border-radius: 1.80rem;
     background: #060606;
 }
 
 .grid-char-name{
     grid-area: grid-char-name ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid-note-space{
     grid-area: grid-note-space;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .25em;
 }
 
 .grid-raid-slot{
     grid-area: grid-raid-slot;
+    background-image: url("src/assets/images/Raids slot.png");
 }
 
 .grid-mythic-slot{
     grid-area: grid-mythic-slot;
+    background-image: url("src/assets/images/Dungeons slot.png");
 }
 
-.grid-pvp-slot{
+.grid-world-slot{
     grid-area: grid-pvp-slot;
+    background-image: url("src/assets/images/World slot.png");
 }
 
 .grid-check1{
     grid-area: grid-check1;
+    background-image: url("src/assets/images/raid 2 slot.png");
 }
 
 .grid-check2{
     grid-area: grid-check2;
+    background-image: url("src/assets/images/raid 4 slot.png");
+    position: relative;
 }
 
 .grid-check3{
     grid-area: grid-check3;
+    background-image: url("src/assets/images/raid 6 slot.png");
+    position: relative;
 }
 
 .grid-check4{
     grid-area: grid-check4;
+    background-image: url("src/assets/images/dungeon 1 slot.png");
+    position: relative;
 }
 
 .grid-check5{
     grid-area: grid-check5;
+    background-image: url("src/assets/images/dungeon 4 slot.png");
+    position: relative;
 }
 
 .grid-check6{
     grid-area: grid-check6;
+    background-image: url("src/assets/images/dungeon 8 slot.png");
+    position: relative;
 }
 
 .grid-check7{
     grid-area: grid-check7;
+    background-image: url("src/assets/images/world 2 slot.png");
+    position: relative;
 }
 
 .grid-check8{
     grid-area: grid-check8;
+    background-image: url("src/assets/images/world 4 slot.png");
+    position: relative;
 }
 
 .grid-check9{
     grid-area: grid-check9;
+    background-image: url("src/assets/images/world 8 slot.png");
+    position: relative;
+}
+
+.grid-input-1{
+    margin-top: 200px;
+}
+
+.grid-input-2{
+    
+}
+
+.grid-input-3{
+    
+}
+
+.grid-input-4{
+    
+}
+
+.grid-input-5{
+    
+}
+
+.grid-input-6{
+    
+}
+
+.grid-input-7{
+    
+}
+
+.grid-input-8{
+    
+}
+
+.grid-input-9{
+    
 }
 

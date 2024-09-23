@@ -161,4 +161,8 @@ ol{
     border-radius: 100% !important;
 }
 
-  
+.select-container{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
