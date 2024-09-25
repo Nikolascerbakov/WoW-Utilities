@@ -32,7 +32,10 @@ function GreatVaultChecklist({ characterData }) {
 
     return (
         <div className="grid-vault-checklist">
-            <div className="grid-char-name" >{characterData.class} </div>
+            <div className="grid-char-name" >
+                <h2>{characterData.class}</h2>
+                <img src={characterData.icon} alt={characterData.class} />
+            </div>
             <div className="grid-note-space"><textarea placeholder="type a note to be reminded of" rows={5} cols={50} /></div>
             <div className="grid-raid-slot"></div>
             <div className="grid-mythic-slot"></div>

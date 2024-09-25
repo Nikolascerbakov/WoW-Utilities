@@ -5,6 +5,7 @@ function MythicPlus(){
     return (
         <>
         <h1>M+ page</h1>
+        <h2>For now a scrapped concept, will be remade into a tierlist maker?</h2>
         
         <div className="affix-container">
         <div className="affix-icons">

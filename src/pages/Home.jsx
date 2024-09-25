@@ -9,7 +9,11 @@ function Home(){
         <div className="container">
             <div className="container-features">
                 <div className="feature">
-                    <h2>Checklist for your Great Vault and custom checklists</h2>
+                    <div className="features-list">
+                    <Link to="/CharacterPage">
+                    Checklist for your Great Vault and custom checklists
+                    </Link>
+                    </div>
                 </div>
                 
             </div>
@@ -18,16 +22,6 @@ function Home(){
         </>
     
             )
-}
-
-function CustomLink({ to, children, ...props}){
-    const resolvedPath = useResolvedPath(to)
-    const isActive = useMatch({path: resolvedPath.pathname, end: true})
-    return (
-        <li className={isActive ? "active" : ""}>
-            <Link to={to} {...props}>{children}</Link>
-        </li> 
-    )
 }
 
 export default Home

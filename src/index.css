@@ -60,12 +60,18 @@ body{
     border: 6px solid;
     border-radius: 2em;
     border-color: bisque;
+    padding: 5em;
 }
 
 .feature-image{
     padding: 2em;
     width: 100%;
     height: 100%;
+}
+
+.features-list a{
+    color: white;
+    text-decoration: none;
 }
 
 .checklist {
