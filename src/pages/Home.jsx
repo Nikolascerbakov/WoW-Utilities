@@ -10,7 +10,7 @@ function Home(){
             <div className="container-features">
                 <div className="feature">
                     <div className="features-list">
-                    <Link to="/CharacterPage">
+                    <Link to="/CharacterPage" className="feature-link">
                     Checklist for your Great Vault and custom checklists
                     </Link>
                     </div>
