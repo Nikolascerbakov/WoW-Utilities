@@ -14,7 +14,7 @@ function CharacterPage() {
         if (savedCharacter) {
             setSelectedCharacter(savedCharacter);
         } else {
-            setSelectedCharacter('Evoker'); // Default to the first option if nothing is saved
+            setSelectedCharacter('Evoker'); // Default to Evoker if nothing is saved
         }
     }, []);
 
